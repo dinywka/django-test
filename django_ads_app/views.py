@@ -7,6 +7,8 @@ import openpyxl
 def ret_str(request):
     return HttpResponse('111')
 
+
+
 def read_txt(request):
     with open("requirements.txt") as file:
         data = file.readlines()
